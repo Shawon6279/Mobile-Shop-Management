@@ -1,0 +1,15 @@
+C:\Users\user\source\repos\MOBILE SHOP\MOBILE SHOP\bin\Debug\MOBILE SHOP.exe.config
+C:\Users\user\source\repos\MOBILE SHOP\MOBILE SHOP\bin\Debug\MOBILE SHOP.exe
+C:\Users\user\source\repos\MOBILE SHOP\MOBILE SHOP\bin\Debug\MOBILE SHOP.pdb
+C:\Users\user\source\repos\MOBILE SHOP\MOBILE SHOP\obj\Debug\MOBILE SHOP.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\MOBILE SHOP\MOBILE SHOP\obj\Debug\MOBILE_SHOP.Form1.resources
+C:\Users\user\source\repos\MOBILE SHOP\MOBILE SHOP\obj\Debug\MOBILE_SHOP.Properties.Resources.resources
+C:\Users\user\source\repos\MOBILE SHOP\MOBILE SHOP\obj\Debug\MOBILE SHOP.csproj.GenerateResource.cache
+C:\Users\user\source\repos\MOBILE SHOP\MOBILE SHOP\obj\Debug\MOBILE SHOP.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\MOBILE SHOP\MOBILE SHOP\obj\Debug\MOBILE SHOP.exe
+C:\Users\user\source\repos\MOBILE SHOP\MOBILE SHOP\obj\Debug\MOBILE SHOP.pdb
+C:\Users\user\source\repos\MOBILE SHOP\MOBILE SHOP\obj\Debug\MOBILE_SHOP.AllUserenfo.AddNewPhone.resources
+C:\Users\user\source\repos\MOBILE SHOP\MOBILE SHOP\obj\Debug\MOBILE SHOP.csproj.CopyComplete
+C:\Users\user\source\repos\MOBILE SHOP\MOBILE SHOP\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\user\source\repos\MOBILE SHOP\MOBILE SHOP\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+C:\Users\user\source\repos\MOBILE SHOP\MOBILE SHOP\obj\Debug\MOBILE_SHOP.AllUserenfo.customer.resources
