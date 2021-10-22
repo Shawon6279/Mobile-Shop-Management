@@ -33,18 +33,18 @@ namespace MOBILE_SHOP.AllUserenfo
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(customer));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.name = new Guna.UI2.WinForms.Guna2TextBox();
+            this.emailid = new Guna.UI2.WinForms.Guna2TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.guna2TextBox3 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.address = new Guna.UI2.WinForms.Guna2TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.guna2TextBox4 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.contactnumber = new Guna.UI2.WinForms.Guna2TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.guna2ComboBox2 = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.gender = new Guna.UI2.WinForms.Guna2ComboBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.companyname = new Guna.UI2.WinForms.Guna2ComboBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.guna2ComboBox3 = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.modelname = new Guna.UI2.WinForms.Guna2ComboBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
@@ -53,16 +53,16 @@ namespace MOBILE_SHOP.AllUserenfo
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
+            this.ramlabel = new System.Windows.Forms.Label();
+            this.internallabel = new System.Windows.Forms.Label();
+            this.expandablelabel = new System.Windows.Forms.Label();
+            this.rearlabel = new System.Windows.Forms.Label();
+            this.frontlabel = new System.Windows.Forms.Label();
+            this.fingerprintlabel = new System.Windows.Forms.Label();
+            this.pricelabel = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
-            this.guna2TextBox5 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.imei = new Guna.UI2.WinForms.Guna2TextBox();
+            this.purchaseitem = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.shapeContainer1 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
             this.rectangleShape1 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
@@ -91,49 +91,53 @@ namespace MOBILE_SHOP.AllUserenfo
             this.label2.TabIndex = 1;
             this.label2.Text = "Name ";
             // 
-            // guna2TextBox1
+            // name
             // 
-            this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox1.DefaultText = "";
-            this.guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.DisabledState.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.FocusedState.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.HoverState.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.Location = new System.Drawing.Point(66, 122);
-            this.guna2TextBox1.Name = "guna2TextBox1";
-            this.guna2TextBox1.PasswordChar = '\0';
-            this.guna2TextBox1.PlaceholderText = "";
-            this.guna2TextBox1.SelectedText = "";
-            this.guna2TextBox1.ShadowDecoration.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.Size = new System.Drawing.Size(379, 32);
-            this.guna2TextBox1.TabIndex = 2;
+            this.name.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.name.DefaultText = "";
+            this.name.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.name.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.name.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.name.DisabledState.Parent = this.name;
+            this.name.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.name.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.name.FocusedState.Parent = this.name;
+            this.name.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.name.ForeColor = System.Drawing.Color.Maroon;
+            this.name.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.name.HoverState.Parent = this.name;
+            this.name.Location = new System.Drawing.Point(66, 122);
+            this.name.Name = "name";
+            this.name.PasswordChar = '\0';
+            this.name.PlaceholderText = "";
+            this.name.SelectedText = "";
+            this.name.ShadowDecoration.Parent = this.name;
+            this.name.Size = new System.Drawing.Size(379, 32);
+            this.name.TabIndex = 2;
             // 
-            // guna2TextBox2
+            // emailid
             // 
-            this.guna2TextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox2.DefaultText = "";
-            this.guna2TextBox2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox2.DisabledState.Parent = this.guna2TextBox2;
-            this.guna2TextBox2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox2.FocusedState.Parent = this.guna2TextBox2;
-            this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox2.HoverState.Parent = this.guna2TextBox2;
-            this.guna2TextBox2.Location = new System.Drawing.Point(66, 396);
-            this.guna2TextBox2.Name = "guna2TextBox2";
-            this.guna2TextBox2.PasswordChar = '\0';
-            this.guna2TextBox2.PlaceholderText = "";
-            this.guna2TextBox2.SelectedText = "";
-            this.guna2TextBox2.ShadowDecoration.Parent = this.guna2TextBox2;
-            this.guna2TextBox2.Size = new System.Drawing.Size(379, 31);
-            this.guna2TextBox2.TabIndex = 4;
+            this.emailid.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.emailid.DefaultText = "";
+            this.emailid.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.emailid.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.emailid.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.emailid.DisabledState.Parent = this.emailid;
+            this.emailid.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.emailid.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.emailid.FocusedState.Parent = this.emailid;
+            this.emailid.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.emailid.ForeColor = System.Drawing.Color.Maroon;
+            this.emailid.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.emailid.HoverState.Parent = this.emailid;
+            this.emailid.Location = new System.Drawing.Point(66, 396);
+            this.emailid.Name = "emailid";
+            this.emailid.PasswordChar = '\0';
+            this.emailid.PlaceholderText = "";
+            this.emailid.SelectedText = "";
+            this.emailid.ShadowDecoration.Parent = this.emailid;
+            this.emailid.Size = new System.Drawing.Size(379, 31);
+            this.emailid.TabIndex = 4;
             // 
             // label3
             // 
@@ -145,27 +149,29 @@ namespace MOBILE_SHOP.AllUserenfo
             this.label3.TabIndex = 3;
             this.label3.Text = "Contuct Number";
             // 
-            // guna2TextBox3
+            // address
             // 
-            this.guna2TextBox3.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox3.DefaultText = "";
-            this.guna2TextBox3.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox3.DisabledState.Parent = this.guna2TextBox3;
-            this.guna2TextBox3.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox3.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox3.FocusedState.Parent = this.guna2TextBox3;
-            this.guna2TextBox3.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox3.HoverState.Parent = this.guna2TextBox3;
-            this.guna2TextBox3.Location = new System.Drawing.Point(66, 490);
-            this.guna2TextBox3.Name = "guna2TextBox3";
-            this.guna2TextBox3.PasswordChar = '\0';
-            this.guna2TextBox3.PlaceholderText = "";
-            this.guna2TextBox3.SelectedText = "";
-            this.guna2TextBox3.ShadowDecoration.Parent = this.guna2TextBox3;
-            this.guna2TextBox3.Size = new System.Drawing.Size(379, 32);
-            this.guna2TextBox3.TabIndex = 6;
+            this.address.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.address.DefaultText = "";
+            this.address.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.address.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.address.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.address.DisabledState.Parent = this.address;
+            this.address.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.address.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.address.FocusedState.Parent = this.address;
+            this.address.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.address.ForeColor = System.Drawing.Color.Maroon;
+            this.address.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.address.HoverState.Parent = this.address;
+            this.address.Location = new System.Drawing.Point(66, 490);
+            this.address.Name = "address";
+            this.address.PasswordChar = '\0';
+            this.address.PlaceholderText = "";
+            this.address.SelectedText = "";
+            this.address.ShadowDecoration.Parent = this.address;
+            this.address.Size = new System.Drawing.Size(379, 32);
+            this.address.TabIndex = 6;
             // 
             // label4
             // 
@@ -177,27 +183,29 @@ namespace MOBILE_SHOP.AllUserenfo
             this.label4.TabIndex = 5;
             this.label4.Text = "Gender";
             // 
-            // guna2TextBox4
+            // contactnumber
             // 
-            this.guna2TextBox4.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox4.DefaultText = "";
-            this.guna2TextBox4.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox4.DisabledState.Parent = this.guna2TextBox4;
-            this.guna2TextBox4.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox4.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox4.FocusedState.Parent = this.guna2TextBox4;
-            this.guna2TextBox4.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox4.HoverState.Parent = this.guna2TextBox4;
-            this.guna2TextBox4.Location = new System.Drawing.Point(66, 307);
-            this.guna2TextBox4.Name = "guna2TextBox4";
-            this.guna2TextBox4.PasswordChar = '\0';
-            this.guna2TextBox4.PlaceholderText = "";
-            this.guna2TextBox4.SelectedText = "";
-            this.guna2TextBox4.ShadowDecoration.Parent = this.guna2TextBox4;
-            this.guna2TextBox4.Size = new System.Drawing.Size(379, 36);
-            this.guna2TextBox4.TabIndex = 8;
+            this.contactnumber.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.contactnumber.DefaultText = "";
+            this.contactnumber.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.contactnumber.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.contactnumber.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.contactnumber.DisabledState.Parent = this.contactnumber;
+            this.contactnumber.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.contactnumber.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.contactnumber.FocusedState.Parent = this.contactnumber;
+            this.contactnumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.contactnumber.ForeColor = System.Drawing.Color.Maroon;
+            this.contactnumber.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.contactnumber.HoverState.Parent = this.contactnumber;
+            this.contactnumber.Location = new System.Drawing.Point(66, 307);
+            this.contactnumber.Name = "contactnumber";
+            this.contactnumber.PasswordChar = '\0';
+            this.contactnumber.PlaceholderText = "";
+            this.contactnumber.SelectedText = "";
+            this.contactnumber.ShadowDecoration.Parent = this.contactnumber;
+            this.contactnumber.Size = new System.Drawing.Size(379, 36);
+            this.contactnumber.TabIndex = 8;
             // 
             // label5
             // 
@@ -209,24 +217,28 @@ namespace MOBILE_SHOP.AllUserenfo
             this.label5.TabIndex = 7;
             this.label5.Text = "EmaiL ID";
             // 
-            // guna2ComboBox2
+            // gender
             // 
-            this.guna2ComboBox2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ComboBox2.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.guna2ComboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.guna2ComboBox2.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox2.FocusedState.Parent = this.guna2ComboBox2;
-            this.guna2ComboBox2.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.guna2ComboBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.guna2ComboBox2.HoverState.Parent = this.guna2ComboBox2;
-            this.guna2ComboBox2.ItemHeight = 30;
-            this.guna2ComboBox2.ItemsAppearance.Parent = this.guna2ComboBox2;
-            this.guna2ComboBox2.Location = new System.Drawing.Point(66, 216);
-            this.guna2ComboBox2.Name = "guna2ComboBox2";
-            this.guna2ComboBox2.ShadowDecoration.Parent = this.guna2ComboBox2;
-            this.guna2ComboBox2.Size = new System.Drawing.Size(379, 36);
-            this.guna2ComboBox2.TabIndex = 11;
+            this.gender.BackColor = System.Drawing.Color.Transparent;
+            this.gender.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.gender.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.gender.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.gender.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.gender.FocusedState.Parent = this.gender;
+            this.gender.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gender.ForeColor = System.Drawing.Color.Maroon;
+            this.gender.HoverState.Parent = this.gender;
+            this.gender.ItemHeight = 30;
+            this.gender.Items.AddRange(new object[] {
+            "Male",
+            "Female ",
+            "Other"});
+            this.gender.ItemsAppearance.Parent = this.gender;
+            this.gender.Location = new System.Drawing.Point(66, 216);
+            this.gender.Name = "gender";
+            this.gender.ShadowDecoration.Parent = this.gender;
+            this.gender.Size = new System.Drawing.Size(379, 36);
+            this.gender.TabIndex = 11;
             // 
             // label6
             // 
@@ -238,24 +250,25 @@ namespace MOBILE_SHOP.AllUserenfo
             this.label6.TabIndex = 12;
             this.label6.Text = "Address";
             // 
-            // guna2ComboBox1
+            // companyname
             // 
-            this.guna2ComboBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.guna2ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.guna2ComboBox1.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox1.FocusedState.Parent = this.guna2ComboBox1;
-            this.guna2ComboBox1.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.guna2ComboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.guna2ComboBox1.HoverState.Parent = this.guna2ComboBox1;
-            this.guna2ComboBox1.ItemHeight = 30;
-            this.guna2ComboBox1.ItemsAppearance.Parent = this.guna2ComboBox1;
-            this.guna2ComboBox1.Location = new System.Drawing.Point(562, 51);
-            this.guna2ComboBox1.Name = "guna2ComboBox1";
-            this.guna2ComboBox1.ShadowDecoration.Parent = this.guna2ComboBox1;
-            this.guna2ComboBox1.Size = new System.Drawing.Size(379, 36);
-            this.guna2ComboBox1.TabIndex = 14;
+            this.companyname.BackColor = System.Drawing.Color.Transparent;
+            this.companyname.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.companyname.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.companyname.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.companyname.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.companyname.FocusedState.Parent = this.companyname;
+            this.companyname.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.companyname.ForeColor = System.Drawing.Color.Maroon;
+            this.companyname.HoverState.Parent = this.companyname;
+            this.companyname.ItemHeight = 30;
+            this.companyname.ItemsAppearance.Parent = this.companyname;
+            this.companyname.Location = new System.Drawing.Point(562, 51);
+            this.companyname.Name = "companyname";
+            this.companyname.ShadowDecoration.Parent = this.companyname;
+            this.companyname.Size = new System.Drawing.Size(379, 36);
+            this.companyname.TabIndex = 14;
+            this.companyname.SelectedIndexChanged += new System.EventHandler(this.companyname_SelectedIndexChanged);
             // 
             // label7
             // 
@@ -267,24 +280,25 @@ namespace MOBILE_SHOP.AllUserenfo
             this.label7.TabIndex = 13;
             this.label7.Text = "Company";
             // 
-            // guna2ComboBox3
+            // modelname
             // 
-            this.guna2ComboBox3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ComboBox3.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.guna2ComboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.guna2ComboBox3.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox3.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox3.FocusedState.Parent = this.guna2ComboBox3;
-            this.guna2ComboBox3.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.guna2ComboBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.guna2ComboBox3.HoverState.Parent = this.guna2ComboBox3;
-            this.guna2ComboBox3.ItemHeight = 30;
-            this.guna2ComboBox3.ItemsAppearance.Parent = this.guna2ComboBox3;
-            this.guna2ComboBox3.Location = new System.Drawing.Point(562, 136);
-            this.guna2ComboBox3.Name = "guna2ComboBox3";
-            this.guna2ComboBox3.ShadowDecoration.Parent = this.guna2ComboBox3;
-            this.guna2ComboBox3.Size = new System.Drawing.Size(379, 36);
-            this.guna2ComboBox3.TabIndex = 16;
+            this.modelname.BackColor = System.Drawing.Color.Transparent;
+            this.modelname.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.modelname.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.modelname.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.modelname.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.modelname.FocusedState.Parent = this.modelname;
+            this.modelname.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.modelname.ForeColor = System.Drawing.Color.Maroon;
+            this.modelname.HoverState.Parent = this.modelname;
+            this.modelname.ItemHeight = 30;
+            this.modelname.ItemsAppearance.Parent = this.modelname;
+            this.modelname.Location = new System.Drawing.Point(562, 136);
+            this.modelname.Name = "modelname";
+            this.modelname.ShadowDecoration.Parent = this.modelname;
+            this.modelname.Size = new System.Drawing.Size(379, 36);
+            this.modelname.TabIndex = 16;
+            this.modelname.SelectedIndexChanged += new System.EventHandler(this.modelname_SelectedIndexChanged);
             // 
             // label8
             // 
@@ -367,75 +381,75 @@ namespace MOBILE_SHOP.AllUserenfo
             this.label15.Text = "Price";
             this.label15.Click += new System.EventHandler(this.label15_Click);
             // 
-            // label21
+            // ramlabel
             // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(791, 193);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(54, 25);
-            this.label21.TabIndex = 29;
-            this.label21.Text = "------";
+            this.ramlabel.AutoSize = true;
+            this.ramlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ramlabel.Location = new System.Drawing.Point(791, 193);
+            this.ramlabel.Name = "ramlabel";
+            this.ramlabel.Size = new System.Drawing.Size(54, 25);
+            this.ramlabel.TabIndex = 29;
+            this.ramlabel.Text = "------";
             // 
-            // label16
+            // internallabel
             // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(791, 218);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(54, 25);
-            this.label16.TabIndex = 31;
-            this.label16.Text = "------";
+            this.internallabel.AutoSize = true;
+            this.internallabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.internallabel.Location = new System.Drawing.Point(791, 218);
+            this.internallabel.Name = "internallabel";
+            this.internallabel.Size = new System.Drawing.Size(54, 25);
+            this.internallabel.TabIndex = 31;
+            this.internallabel.Text = "------";
             // 
-            // label17
+            // expandablelabel
             // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(791, 243);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(54, 25);
-            this.label17.TabIndex = 32;
-            this.label17.Text = "------";
+            this.expandablelabel.AutoSize = true;
+            this.expandablelabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.expandablelabel.Location = new System.Drawing.Point(791, 243);
+            this.expandablelabel.Name = "expandablelabel";
+            this.expandablelabel.Size = new System.Drawing.Size(54, 25);
+            this.expandablelabel.TabIndex = 32;
+            this.expandablelabel.Text = "------";
             // 
-            // label18
+            // rearlabel
             // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(791, 268);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(54, 25);
-            this.label18.TabIndex = 33;
-            this.label18.Text = "------";
+            this.rearlabel.AutoSize = true;
+            this.rearlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rearlabel.Location = new System.Drawing.Point(791, 268);
+            this.rearlabel.Name = "rearlabel";
+            this.rearlabel.Size = new System.Drawing.Size(54, 25);
+            this.rearlabel.TabIndex = 33;
+            this.rearlabel.Text = "------";
             // 
-            // label19
+            // frontlabel
             // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(791, 293);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(54, 25);
-            this.label19.TabIndex = 34;
-            this.label19.Text = "------";
+            this.frontlabel.AutoSize = true;
+            this.frontlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.frontlabel.Location = new System.Drawing.Point(791, 293);
+            this.frontlabel.Name = "frontlabel";
+            this.frontlabel.Size = new System.Drawing.Size(54, 25);
+            this.frontlabel.TabIndex = 34;
+            this.frontlabel.Text = "------";
             // 
-            // label20
+            // fingerprintlabel
             // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(791, 318);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(54, 25);
-            this.label20.TabIndex = 35;
-            this.label20.Text = "------";
+            this.fingerprintlabel.AutoSize = true;
+            this.fingerprintlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fingerprintlabel.Location = new System.Drawing.Point(791, 318);
+            this.fingerprintlabel.Name = "fingerprintlabel";
+            this.fingerprintlabel.Size = new System.Drawing.Size(54, 25);
+            this.fingerprintlabel.TabIndex = 35;
+            this.fingerprintlabel.Text = "------";
             // 
-            // label22
+            // pricelabel
             // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(878, 359);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(54, 25);
-            this.label22.TabIndex = 36;
-            this.label22.Text = "------";
+            this.pricelabel.AutoSize = true;
+            this.pricelabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pricelabel.Location = new System.Drawing.Point(878, 359);
+            this.pricelabel.Name = "pricelabel";
+            this.pricelabel.Size = new System.Drawing.Size(54, 25);
+            this.pricelabel.TabIndex = 36;
+            this.pricelabel.Text = "------";
             // 
             // label23
             // 
@@ -443,49 +457,53 @@ namespace MOBILE_SHOP.AllUserenfo
             this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label23.Location = new System.Drawing.Point(576, 401);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(91, 25);
+            this.label23.Size = new System.Drawing.Size(54, 25);
             this.label23.TabIndex = 39;
-            this.label23.Text = "Address";
+            this.label23.Text = "IMEI";
             // 
-            // guna2TextBox5
+            // imei
             // 
-            this.guna2TextBox5.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox5.DefaultText = "";
-            this.guna2TextBox5.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox5.DisabledState.Parent = this.guna2TextBox5;
-            this.guna2TextBox5.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox5.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox5.FocusedState.Parent = this.guna2TextBox5;
-            this.guna2TextBox5.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox5.HoverState.Parent = this.guna2TextBox5;
-            this.guna2TextBox5.Location = new System.Drawing.Point(581, 429);
-            this.guna2TextBox5.Name = "guna2TextBox5";
-            this.guna2TextBox5.PasswordChar = '\0';
-            this.guna2TextBox5.PlaceholderText = "";
-            this.guna2TextBox5.SelectedText = "";
-            this.guna2TextBox5.ShadowDecoration.Parent = this.guna2TextBox5;
-            this.guna2TextBox5.Size = new System.Drawing.Size(379, 30);
-            this.guna2TextBox5.TabIndex = 38;
+            this.imei.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.imei.DefaultText = "";
+            this.imei.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.imei.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.imei.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.imei.DisabledState.Parent = this.imei;
+            this.imei.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.imei.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.imei.FocusedState.Parent = this.imei;
+            this.imei.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.imei.ForeColor = System.Drawing.Color.Maroon;
+            this.imei.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.imei.HoverState.Parent = this.imei;
+            this.imei.Location = new System.Drawing.Point(581, 429);
+            this.imei.Name = "imei";
+            this.imei.PasswordChar = '\0';
+            this.imei.PlaceholderText = "";
+            this.imei.SelectedText = "";
+            this.imei.ShadowDecoration.Parent = this.imei;
+            this.imei.Size = new System.Drawing.Size(379, 30);
+            this.imei.TabIndex = 38;
             // 
-            // guna2Button1
+            // purchaseitem
             // 
-            this.guna2Button1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.guna2Button1.BorderRadius = 15;
-            this.guna2Button1.BorderThickness = 2;
-            this.guna2Button1.CheckedState.Parent = this.guna2Button1;
-            this.guna2Button1.CustomImages.Parent = this.guna2Button1;
-            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.HoverState.Parent = this.guna2Button1;
-            this.guna2Button1.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button1.Image")));
-            this.guna2Button1.Location = new System.Drawing.Point(754, 486);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
-            this.guna2Button1.Size = new System.Drawing.Size(192, 45);
-            this.guna2Button1.TabIndex = 40;
-            this.guna2Button1.Text = "Purchase The Item";
+            this.purchaseitem.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.purchaseitem.BorderRadius = 15;
+            this.purchaseitem.BorderThickness = 2;
+            this.purchaseitem.CheckedState.Parent = this.purchaseitem;
+            this.purchaseitem.CustomImages.Parent = this.purchaseitem;
+            this.purchaseitem.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.purchaseitem.ForeColor = System.Drawing.Color.White;
+            this.purchaseitem.HoverState.Parent = this.purchaseitem;
+            this.purchaseitem.Image = ((System.Drawing.Image)(resources.GetObject("purchaseitem.Image")));
+            this.purchaseitem.Location = new System.Drawing.Point(754, 486);
+            this.purchaseitem.Name = "purchaseitem";
+            this.purchaseitem.ShadowDecoration.Parent = this.purchaseitem;
+            this.purchaseitem.Size = new System.Drawing.Size(192, 45);
+            this.purchaseitem.TabIndex = 40;
+            this.purchaseitem.Text = "Purchase The Item";
+            this.purchaseitem.Click += new System.EventHandler(this.purchaseitem_Click);
+            this.purchaseitem.Enter += new System.EventHandler(this.guna2Button1_Enter);
             // 
             // guna2Elipse1
             // 
@@ -505,24 +523,25 @@ namespace MOBILE_SHOP.AllUserenfo
             // 
             // rectangleShape1
             // 
+            this.rectangleShape1.BorderWidth = 3;
             this.rectangleShape1.Location = new System.Drawing.Point(571, 256);
             this.rectangleShape1.Name = "rectangleShape1";
-            this.rectangleShape1.Size = new System.Drawing.Size(401, 276);
+            this.rectangleShape1.Size = new System.Drawing.Size(410, 277);
             // 
             // customer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.guna2Button1);
+            this.Controls.Add(this.purchaseitem);
             this.Controls.Add(this.label23);
-            this.Controls.Add(this.guna2TextBox5);
-            this.Controls.Add(this.label22);
-            this.Controls.Add(this.label20);
-            this.Controls.Add(this.label19);
-            this.Controls.Add(this.label18);
-            this.Controls.Add(this.label17);
-            this.Controls.Add(this.label16);
-            this.Controls.Add(this.label21);
+            this.Controls.Add(this.imei);
+            this.Controls.Add(this.pricelabel);
+            this.Controls.Add(this.fingerprintlabel);
+            this.Controls.Add(this.frontlabel);
+            this.Controls.Add(this.rearlabel);
+            this.Controls.Add(this.expandablelabel);
+            this.Controls.Add(this.internallabel);
+            this.Controls.Add(this.ramlabel);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label13);
@@ -530,24 +549,26 @@ namespace MOBILE_SHOP.AllUserenfo
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.guna2ComboBox3);
+            this.Controls.Add(this.modelname);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.guna2ComboBox1);
+            this.Controls.Add(this.companyname);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.guna2ComboBox2);
-            this.Controls.Add(this.guna2TextBox4);
+            this.Controls.Add(this.gender);
+            this.Controls.Add(this.contactnumber);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.guna2TextBox3);
+            this.Controls.Add(this.address);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.guna2TextBox2);
+            this.Controls.Add(this.emailid);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.guna2TextBox1);
+            this.Controls.Add(this.name);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.shapeContainer1);
             this.Name = "customer";
             this.Size = new System.Drawing.Size(1100, 601);
+            this.Load += new System.EventHandler(this.customer_Load);
+            this.Enter += new System.EventHandler(this.customer_Enter);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -557,18 +578,18 @@ namespace MOBILE_SHOP.AllUserenfo
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
+        private Guna.UI2.WinForms.Guna2TextBox name;
+        private Guna.UI2.WinForms.Guna2TextBox emailid;
         private System.Windows.Forms.Label label3;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox3;
+        private Guna.UI2.WinForms.Guna2TextBox address;
         private System.Windows.Forms.Label label4;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox4;
+        private Guna.UI2.WinForms.Guna2TextBox contactnumber;
         private System.Windows.Forms.Label label5;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox2;
+        private Guna.UI2.WinForms.Guna2ComboBox gender;
         private System.Windows.Forms.Label label6;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
+        private Guna.UI2.WinForms.Guna2ComboBox companyname;
         private System.Windows.Forms.Label label7;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox3;
+        private Guna.UI2.WinForms.Guna2ComboBox modelname;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
@@ -577,16 +598,16 @@ namespace MOBILE_SHOP.AllUserenfo
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label ramlabel;
+        private System.Windows.Forms.Label internallabel;
+        private System.Windows.Forms.Label expandablelabel;
+        private System.Windows.Forms.Label rearlabel;
+        private System.Windows.Forms.Label frontlabel;
+        private System.Windows.Forms.Label fingerprintlabel;
+        private System.Windows.Forms.Label pricelabel;
         private System.Windows.Forms.Label label23;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox5;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2TextBox imei;
+        private Guna.UI2.WinForms.Guna2Button purchaseitem;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
         private Microsoft.VisualBasic.PowerPacks.ShapeContainer shapeContainer1;
         private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape1;

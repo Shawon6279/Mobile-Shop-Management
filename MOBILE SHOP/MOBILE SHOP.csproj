@@ -69,6 +69,30 @@
     <Compile Include="AllUserenfo\customer.Designer.cs">
       <DependentUpon>customer.cs</DependentUpon>
     </Compile>
+    <Compile Include="AllUserenfo\customer_records.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AllUserenfo\customer_records.Designer.cs">
+      <DependentUpon>customer_records.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllUserenfo\deletephonerecords.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AllUserenfo\deletephonerecords.Designer.cs">
+      <DependentUpon>deletephonerecords.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllUserenfo\login_page.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AllUserenfo\login_page.Designer.cs">
+      <DependentUpon>login_page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllUserenfo\stock.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AllUserenfo\stock.Designer.cs">
+      <DependentUpon>stock.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -82,6 +106,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AllUserenfo\customer.resx">
       <DependentUpon>customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllUserenfo\customer_records.resx">
+      <DependentUpon>customer_records.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllUserenfo\deletephonerecords.resx">
+      <DependentUpon>deletephonerecords.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllUserenfo\login_page.resx">
+      <DependentUpon>login_page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllUserenfo\stock.resx">
+      <DependentUpon>stock.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

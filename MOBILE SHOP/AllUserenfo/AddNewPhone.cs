@@ -13,7 +13,7 @@ namespace MOBILE_SHOP.AllUserenfo
 {
     public partial class AddNewPhone : UserControl
     {
-        new_mobile nb = new new_mobile();
+        new_mobile nb = new new_mobile();  //object of new_mobile class
         string query;
         public AddNewPhone()
         {
@@ -66,7 +66,7 @@ namespace MOBILE_SHOP.AllUserenfo
             }
         }
 
-        private void rstbtn_Click(object sender, EventArgs e)
+        private void rstbtn_Click(object sender, EventArgs e)  //reset button
         {
             companyname.Clear();
             modelname.Clear();

@@ -521,6 +521,7 @@ namespace MOBILE_SHOP.AllUserenfo
             this.svbtn.CheckedState.Parent = this.svbtn;
             this.svbtn.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.svbtn.CustomImages.Parent = this.svbtn;
+            this.svbtn.FillColor = System.Drawing.Color.Navy;
             this.svbtn.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.svbtn.ForeColor = System.Drawing.Color.White;
             this.svbtn.HoverState.Parent = this.svbtn;
@@ -540,6 +541,7 @@ namespace MOBILE_SHOP.AllUserenfo
             this.rstbtn.CheckedState.Parent = this.rstbtn;
             this.rstbtn.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.rstbtn.CustomImages.Parent = this.rstbtn;
+            this.rstbtn.FillColor = System.Drawing.Color.Navy;
             this.rstbtn.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rstbtn.ForeColor = System.Drawing.Color.White;
             this.rstbtn.HoverState.Parent = this.rstbtn;

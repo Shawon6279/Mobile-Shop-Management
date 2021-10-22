@@ -13,3 +13,7 @@ C:\Users\user\source\repos\MOBILE SHOP\MOBILE SHOP\obj\Debug\MOBILE SHOP.csproj.
 C:\Users\user\source\repos\MOBILE SHOP\MOBILE SHOP\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
 C:\Users\user\source\repos\MOBILE SHOP\MOBILE SHOP\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
 C:\Users\user\source\repos\MOBILE SHOP\MOBILE SHOP\obj\Debug\MOBILE_SHOP.AllUserenfo.customer.resources
+C:\Users\user\source\repos\MOBILE SHOP\MOBILE SHOP\obj\Debug\MOBILE_SHOP.AllUserenfo.stock.resources
+C:\Users\user\source\repos\MOBILE SHOP\MOBILE SHOP\obj\Debug\MOBILE_SHOP.AllUserenfo.customer_records.resources
+C:\Users\user\source\repos\MOBILE SHOP\MOBILE SHOP\obj\Debug\MOBILE_SHOP.AllUserenfo.deletephonerecords.resources
+C:\Users\user\source\repos\MOBILE SHOP\MOBILE SHOP\obj\Debug\MOBILE_SHOP.AllUserenfo.login_page.resources
